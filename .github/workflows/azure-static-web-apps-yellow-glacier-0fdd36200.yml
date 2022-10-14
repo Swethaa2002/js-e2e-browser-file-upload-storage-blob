@@ -32,8 +32,8 @@ jobs:
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
           env: # Add environment variables here
-            REACT_APP_STORAGESASTOKEN: ${{secrets.REACT_APP_STORAGESASTOKEN}}
-            REACT_APP_STORAGERESOURCENAME: ${{secrets.REACT_APP_STORAGERESOURCENAME}}
+            REACT_APP_STORAGESASTOKEN: ${{secrets.sv=2021-06-08&ss=b&srt=sco&sp=rwdlactfx&se=2022-10-14T17:06:17Z&st=2022-10-14T09:06:17Z&spr=https&sig=gryAib%2BzHQSd4YcwRKovndiQ2WQKWP5JQQLQbBFO1mM%3D}}
+            REACT_APP_STORAGERESOURCENAME: ${{secrets.fixathonupload}}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
